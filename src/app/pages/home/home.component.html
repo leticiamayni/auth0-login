@@ -1,0 +1,7 @@
+<div class="home-content">
+    <h1 *ngIf="(auth.isAuthenticated$ | async) === false">Faça o login para começar</h1>
+
+    <div *ngIf="auth.isAuthenticated$ | async" class="user-content">
+        <h1>👋 Olá, {{profile?.name}}</h1>
+    </div>
+</div>

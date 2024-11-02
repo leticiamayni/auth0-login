@@ -1,0 +1,15 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+    height: fit-content;
+    padding: 30px;
+
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+
+    .user-content {
+        font-weight: 600;
+    }
+}
